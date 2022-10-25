@@ -1,10 +1,3 @@
 #!/bin/bash
 
-echo "running pre-build steps"
-echo $(node --version)
-
-echo $(git ls-remote ssh://git@nas.mirrorscapexr.com:mirrorscape/planeshifter.git)
-echo $(curl nas.mirrorscapexr.com)
-
-
-node ./Scripts/dns.js
+git ls-remote git@github.com:Unity-Technologies/cicd-build-service.git
